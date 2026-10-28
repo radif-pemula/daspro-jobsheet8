@@ -13,6 +13,15 @@ public class Triangle25 {
                 j++;
             }System.out.println();
             i++;
+        }int k = n;
+        while (k >= 1) {
+            int l = 1;
+            while (l <= k) {
+                System.out.print("*");
+                l++;
+            }
+            System.out.println();
+            k--;
         }
         sc.close();
     }
